@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+*{
+	margin: 0;
+	padding: 0;	
+    list-style: none;    
+    font-family: 'Montserrat';
+}
+
+
+html,body{ 
+    background-color: #424242;
+    height: 100%; }
+
+header{
+    background-image: url(../imagens/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow-y: auto;
+    min-height: 94%;
+    
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.logo{
+    width: 130px;
+    height: 50px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 20px 10px;
+}
+
+nav ul{ list-style-type: none;}
+
+nav a, i{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    margin:5px 10px;
+    transition: 0.3s;
+}
+
+nav i { font-size: 30px;}
+
+nav i:hover{ color: #a200ff;}
+
+.btn{
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #a200ff;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    transition: 1.2s;
+}
+
+.btn:hover {
+    color: #a200ff;
+    background-color: #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content-box{
+    text-align: center;
+    padding: 40px 2%;
+    width: 27%;
+    height: 380px;
+    margin-top: 20px;
+}
+
+section h1{
+    color: #a200ff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section p {
+    margin-top: 30px;
+    font-size: 15px;
+    color:#fff;
+    line-height: 30px;
+}
+
+.dg{
+    width: 170px;
+    height: 230px;
+    border: 3px solid #a200ff;
+    border-radius: 50px;
+}
+
+.content-box > h2, h3{  
+    color: #a200ff;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.text { 
+    font-size: 15px;
+    color: #fff;}
+
+.skills li{
+	margin: 20px 0;
+}
+
+.skills li h3{text-shadow: 0.1em 0.2em 0.2em #a200ff;;}
+
+
+.bar{
+	background: #fff;
+	display: block;
+	height: 5px;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px #a200ff;;
+
+}
+.bar span{
+	height: 5px;
+	float: left;
+	background: #a200ff;;
+}
+
+.a{	width: 100%;}
+
+.b{	width: 70%;}
+
+.c{	width: 60%;}
+
+.d {width: 30%;}
+
+.f {width: 50%;}
+
+.g {width: 40%;}
+
+footer{
+    padding: 3px 0;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1064px){       
+    .content-box{ width: 70%;  }     
+}
+
+@media screen and (max-width: 768px){
+    .content-box{ width: 100%; }    
+}
+
+@media screen and (max-width: 420px){
+    nav {
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    nav i, a{font-size: 25px;}
+
+    .logo{ margin-bottom: 15px;}}
