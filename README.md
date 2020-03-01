@@ -1,5 +1,13 @@
 # Segundo site
-Meu segundo portfólio somente com html e css utilizando flexbox.
+
+## Meu atual site.
+
+### O que eu utilizei:
+
+- Html5
+- Css3
+- Flexbox
+- Responsive Web Design
 
 ## Desktop
 
